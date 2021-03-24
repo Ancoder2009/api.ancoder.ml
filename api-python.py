@@ -37,3 +37,5 @@ def getcomments(numtoget)
 		x += 1
 		return flask.jsonify(json.dump(response)), 200
 	
+app.run()
+	
